@@ -1,4 +1,3 @@
-import requests
 import cloudscraper
 from bs4 import BeautifulSoup
 
@@ -22,7 +21,6 @@ class info:
 
 ls_old = []
 bars = "-" * 40
-
 
 scraper = cloudscraper.create_scraper()
 
